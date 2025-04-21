@@ -46,14 +46,57 @@ Since PMOS transistors are in series, they dominate the rise time, while the NMO
 
 PMOS Width	Rise Time
 120nm        	~42 ps
+
 280nm	        ~31.5 ps
+
 560nm        	~28 ps
 
 ![Transient Analysis](https://media.licdn.com/dms/image/v2/D4D22AQFNDzhJi3TS1w/feedshare-shrink_2048_1536/B4DZZNVF1UGwAo-/0/1745054098712?e=1747872000&v=beta&t=efvnyPrvqKOABHtm2Ofd2oUtf9YJpYQnbf2Cfq6lOA8)
 
+As PMOS width increases, the rise time improves due to reduced pull-up resistance.
+Fall time remained nearly constant since NMOS sizing was unchanged
+
 ![Calculation of Rise and Fall Time](https://media.licdn.com/dms/image/v2/D4D22AQFdPnRtElB8vQ/feedshare-shrink_2048_1536/B4DZZNVF0lHwAo-/0/1745054098527?e=1747872000&v=beta&t=C2DQXYpgNlWM6yqrHV8YJoy3T4irDx6VX-vTsMOQJ0g)
 
-As PMOS width increases, the rise time improves due to reduced pull-up resistance.
+he observed results align with the theoretical relationship:
 
-Fall time remained nearly constant since NMOS sizing was unchanged
+𝑡
+𝑟
+𝑖
+𝑠
+𝑒
+∝
+𝑅
+𝑝
+⋅
+𝐶
+𝐿
+and
+𝑅
+𝑝
+∝
+1
+𝑊
+𝑝
+t 
+rise
+​
+ ∝R 
+p
+​
+ ⋅C 
+L
+​
+ andR 
+p
+​
+ ∝ 
+W 
+p
+​
+ 
+1
+​
+ 
+Hence, increasing PMOS width (W<sub>p</sub>) reduces resistance and improves rise time — until parasitic effects start to dominate.
 
