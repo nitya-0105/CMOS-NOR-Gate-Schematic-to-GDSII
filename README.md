@@ -75,27 +75,10 @@ and
 𝑅
 𝑝
 ∝
-1
+1/
 𝑊
 𝑝
-t 
-rise
-​
- ∝R 
-p
-​
- ⋅C 
-L
-​
- andR 
-p
-​
- ∝ 
-W 
-p
-​
- 
-1
+
 ​
  
 Hence, increasing PMOS width (W<sub>p</sub>) reduces resistance and improves rise time — until parasitic effects start to dominate.
