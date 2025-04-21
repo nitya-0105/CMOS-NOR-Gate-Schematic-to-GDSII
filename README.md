@@ -45,6 +45,7 @@ Since PMOS transistors are in series, they dominate the rise time, while the NMO
 
 
 PMOS Width	Rise Time
+
 120nm        	~42 ps
 
 280nm	        ~31.5 ps
