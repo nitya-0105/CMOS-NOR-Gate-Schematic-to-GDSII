@@ -1,1 +1,18 @@
+Introduction to Layout Design
+
+Layout Design is the process of converting a circuit schematic into a physical representation that can be fabricated on a silicon chip. It involves defining the exact geometries and placements of different layers (like diffusion, polysilicon, metal) on the silicon wafer.
+
+In CMOS technology, layout design is a critical step in the VLSI physical design flow, as it directly influences the performance, area, power consumption, and manufacturability of the circuit.
+Layout Design:
+Transistor Placement: Defining diffusion (active), polysilicon (gate), and contacts for NMOS/PMOS.
+
+Interconnections: Routing signal paths using one metal layers (m1).
+
+Verification Steps:
+
+DRC: Design Rule Check – Ensures layout obeys spacing, width, and enclosure rules.
+
+LVS: Layout vs. Schematic – Confirms the layout matches the schematic connectivity.
+
+RC Extraction: For post-layout simulation to analyze parasitic effects.
 
