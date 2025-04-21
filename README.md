@@ -41,4 +41,4 @@ This repository includes:
 📈 Output waveform results and performance evaluation
 The images shown below represents the circuit diagram and a logic symbol of a CMOS NOR gate.
 
-!(Schematic of NOR gate )[https://media.licdn.com/dms/image/v2/D4D22AQG0PTkhwd9_rA/feedshare-shrink_2048_1536/B4DZZNVF1aHAAk-/0/1745054098166?e=1747872000&v=beta&t=Hem_bT8Emimt-OexJKCFi6DgK6LaOWg70MS11pbJDLg]
+![Schematic of NOR gate ](https://media.licdn.com/dms/image/v2/D4D22AQG0PTkhwd9_rA/feedshare-shrink_2048_1536/B4DZZNVF1aHAAk-/0/1745054098166?e=1747872000&v=beta&t=Hem_bT8Emimt-OexJKCFi6DgK6LaOWg70MS11pbJDLg)
