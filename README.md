@@ -25,20 +25,35 @@ A Pull-Up Network (PUN) using PMOS transistors in series
 A Pull-Down Network (PDN) using NMOS transistors in parallel
 
 📌 The number of PMOS and NMOS transistors required depends on the number of inputs:
-
 For a 2-input NOR gate → 2 PMOS + 2 NMOS
+![CMOS NOR Gate Circuit](https://user-images.githubusercontent.com/99066843/152633848-0b85bb7c-ab51-4721-87bb-5e0b6086fbcf.png)
 
-For a 3-input NOR gate → 3 PMOS (series) + 3 NMOS (parallel)
+![CMOS NOR Gate Symbol](https://user-images.githubusercontent.com/99066843/152634113-20813373-ca72-41a1-9ff2-96fba86acb30.png)
 
 The schematic is built using Cadence Virtuoso in 90nm CMOS technology, ensuring accurate transistor-level design and simulation.
-
-This repository includes:
-
-📐 Schematic design of a 2-input CMOS NOR gate
-
-⚡ Transient analysis and DC sweep simulations
-
-📈 Output waveform results and performance evaluation
 The images shown below represents the circuit diagram and a logic symbol of a CMOS NOR gate.
 
 ![Schematic of NOR gate ](https://media.licdn.com/dms/image/v2/D4D22AQG0PTkhwd9_rA/feedshare-shrink_2048_1536/B4DZZNVF1aHAAk-/0/1745054098166?e=1747872000&v=beta&t=Hem_bT8Emimt-OexJKCFi6DgK6LaOWg70MS11pbJDLg)
+
+2.Simulation 
+The CMOS NOR gate was simulated using Cadence Virtuoso with GPDK 90nm technology, focusing on analyzing transient response, waveform behavior, and the effect of PMOS sizing on output timing characteristics.
+
+Transient Analysis Observations:
+The output waveform was analyzed for rise time (LOW to HIGH) and fall time (HIGH to LOW).
+
+Since PMOS transistors are in series, they dominate the rise time, while the NMOS in parallel dominate the fall time.
+
+
+PMOS Width	Rise Time
+120nm        	~42 ps
+280nm	        ~31.5 ps
+560nm        	~28 ps
+
+![Transient Analysis](https://media.licdn.com/dms/image/v2/D4D22AQFNDzhJi3TS1w/feedshare-shrink_2048_1536/B4DZZNVF1UGwAo-/0/1745054098712?e=1747872000&v=beta&t=efvnyPrvqKOABHtm2Ofd2oUtf9YJpYQnbf2Cfq6lOA8)
+
+![Calculation of Rise and Fall Time](https://media.licdn.com/dms/image/v2/D4D22AQFdPnRtElB8vQ/feedshare-shrink_2048_1536/B4DZZNVF0lHwAo-/0/1745054098527?e=1747872000&v=beta&t=C2DQXYpgNlWM6yqrHV8YJoy3T4irDx6VX-vTsMOQJ0g)
+
+As PMOS width increases, the rise time improves due to reduced pull-up resistance.
+
+Fall time remained nearly constant since NMOS sizing was unchanged
+
