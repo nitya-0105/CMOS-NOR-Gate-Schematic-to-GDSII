@@ -33,8 +33,7 @@ For a 2-input NOR gate → 2 PMOS + 2 NMOS
 The schematic is built using Cadence Virtuoso in 90nm CMOS technology, ensuring accurate transistor-level design and simulation.
 The images shown below represents the circuit diagram and a logic symbol of a CMOS NOR gate.
 
-![Schematic of NOR gate ](https://media.licdn.com/dms/image/v2/D4D22AQG0PTkhwd9_rA/feedshare-shrink_2048_1536/B4DZZNVF1aHAAk-/0/1745054098166?e=1747872000&v=beta&t=Hem_bT8Emimt-OexJKCFi6DgK6LaOWg70MS11pbJDLg)
-
+![Schematic of NOR gate ](https://github.com/nitya-0105/CMOS-NOR-Gate-Schematic-to-GDSII/blob/main/NOR%20Gate%20Schematic.jpg)
 2.Simulation 
 The CMOS NOR gate was simulated using Cadence Virtuoso with GPDK 90nm technology, focusing on analyzing transient response, waveform behavior, and the effect of PMOS sizing on output timing characteristics.
 
