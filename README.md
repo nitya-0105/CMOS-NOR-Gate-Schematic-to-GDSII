@@ -33,6 +33,7 @@ For a 2-input NOR gate → 2 PMOS + 2 NMOS
 The schematic is built using Cadence Virtuoso in 90nm CMOS technology, ensuring accurate transistor-level design and simulation.
 The images shown below represents the circuit diagram and a logic symbol of a CMOS NOR gate.
 
+**Schematic of NOR Gate** 
 ![Schematic of NOR gate ](https://github.com/nitya-0105/CMOS-NOR-Gate-Schematic-to-GDSII/blob/main/NOR%20Gate%20Schematic.jpg)
 2.Simulation 
 The CMOS NOR gate was simulated using Cadence Virtuoso with GPDK 90nm technology, focusing on analyzing transient response, waveform behavior, and the effect of PMOS sizing on output timing characteristics.
@@ -51,12 +52,13 @@ PMOS Width	Rise Time
 
 560nm        	~28 ps
 
-![Transient Analysis](https://media.licdn.com/dms/image/v2/D4D22AQFNDzhJi3TS1w/feedshare-shrink_2048_1536/B4DZZNVF1UGwAo-/0/1745054098712?e=1747872000&v=beta&t=efvnyPrvqKOABHtm2Ofd2oUtf9YJpYQnbf2Cfq6lOA8)
+**Transient Analysis**
+![Transient Analysis](https://github.com/nitya-0105/CMOS-NOR-Gate-Schematic-to-GDSII/blob/main/NOR%20gate%20Transient%20Analysis.jpg)
 
 As PMOS width increases, the rise time improves due to reduced pull-up resistance.
 Fall time remained nearly constant since NMOS sizing was unchanged
 
-![Calculation of Rise and Fall Time](https://media.licdn.com/dms/image/v2/D4D22AQFdPnRtElB8vQ/feedshare-shrink_2048_1536/B4DZZNVF0lHwAo-/0/1745054098527?e=1747872000&v=beta&t=C2DQXYpgNlWM6yqrHV8YJoy3T4irDx6VX-vTsMOQJ0g)
+![Calculation of Rise and Fall Time](https://github.com/nitya-0105/CMOS-NOR-Gate-Schematic-to-GDSII/blob/main/NOR%20ate%20Calculation.jpg)
 
 he observed results align with the theoretical relationship:
 
